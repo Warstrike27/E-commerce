@@ -4,7 +4,7 @@
   "description": "Shopper",
   "orientation": "portrait",
 
-  "start_url": "/",
+  "start_url": "https://saurabh200014.github.io/E-Commerce/",
   "display": "standalone",
   "background_color": "#fafafa",
   "theme_color": "#fafafa",
