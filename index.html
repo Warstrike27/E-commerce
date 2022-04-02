@@ -324,6 +324,17 @@
 <!--Call widely Js    -->
 <script src="https://widely.global.ssl.fastly.net/lib/1.0.5/widely.js"></script>
 <script src="widelyInclude.js"> </script>
+<script>
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+    .then((registration) => {
+    console.log("service worker registered")
+    })
+    .catch((err) => {
+    console.log("sw registraration "+ err)
+    });
+    }
+    </script>
 
 </body>
 

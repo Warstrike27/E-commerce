@@ -3,7 +3,8 @@
   "short_name": "Shopper",
   "description": "Shopper",
   "orientation": "portrait",
-  "start_url": "/pwa-ecommerce/",
+
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#fafafa",
   "theme_color": "#fafafa",
